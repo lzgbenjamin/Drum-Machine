@@ -22,8 +22,12 @@ body {
     justify-content: center; 
     width: 550px;
 }
-
-.box {
+.bruh {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.drum-pad {
     background-color: rgba(163, 46, 163, 0.808);
     color:snow;
     border: 1px solid black;
@@ -36,7 +40,7 @@ body {
     width: 150px;
 }
 
-.box.active {
+.drum-pad.active {
     opacity: 0.5;
     transform: scale(0.98);
 }
